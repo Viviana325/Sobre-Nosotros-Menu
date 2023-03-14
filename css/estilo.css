@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+/*Encabezado*/
+header{
+    display: flex;
+    height: 70px;
+    background-color: #851526;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav a{ 
+
+    font-weight: 600;
+    padding-right: 10px;
+
+
+}
+
+nav a:hover{
+    color: black;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+/*Foto nosotros*/
+
+.hero{
+    background-color: darkgrey;
+    height: 80vh;
+    text-align: center!important;
+    padding: 40px;
+}
+
+/*Contenido*/
+.content{
+  
+    height: 400px;
+  width: 700px;
+  background-color: #555;
+ 
+  position: fixed;
+  
+}
+
+.content p{
+    padding: 20px;
+}
+
+.pie{
+    background-color: rgb(48, 12, 12);
+}
+
+span{
+    font-size: 23px;
+}
+.fb{
+    
+    color: white;
+
+}
+
+.ig{
+    
+    color: white;
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.section div{
+
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+div h4{
+    color: white;
+    padding: 5px 0;
+}
+
+div ul{
+    color: white;
+    padding: 5px 0;
+}
+
+div p{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    background:white;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background: #851526;
+    color: white;
+   
+}
+
+.footer-derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+ nav hr{
+    padding: 30px;
+}

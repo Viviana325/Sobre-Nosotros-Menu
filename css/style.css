@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+/*Encabezado*/
+header{
+    display: flex;
+    height: 70px;
+    background-color: #851526;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav a{ 
+
+    font-weight: 600;
+    padding-right: 10px;
+
+
+}
+
+nav a:hover{
+    color: black;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+/*Foto contacto*/
+
+.hero{
+    background-color: darkgrey;
+    height: 80vh;
+    text-align: center!important;
+}
+
+
+/*Contenido*/
+
+.content {
+
+   text-align: center;
+   padding: 20px;
+}
+
+
+.content h2{
+    color: #851526;
+    text-align: center;
+
+}
+
+.content a{
+    color: #851526;
+   padding: 20px;
+}
+
+.content p{
+    padding: 20px;
+}
+
+.content h4{
+    padding: 10px;
+    align-items: center;
+}
+
+.content ul{
+    padding: 7px;
+    align-items: center;
+}
+
+.content-res{
+ text-align: center;
+ padding: 30px;
+}
+
+.content-res p{
+    padding: 10px;
+}
+
+
+
+
+/*footer*/
+
+.pie{
+    background-color: rgb(48, 12, 12);
+}
+
+span{
+    font-size: 23px;
+}
+.fb{
+    
+    color: white;
+
+}
+
+.ig{
+    
+    color: white;
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.section div{
+
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+div h4{
+    color: white;
+    padding: 5px 0;
+}
+
+div ul{
+    color: white;
+    padding: 5px 0;
+}
+
+div p{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    background:white;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background: #851526;
+    color: white;
+   
+}
+
+.footer-derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+ nav hr{
+    padding: 30px;
+}
+
+
+
+
+
+
